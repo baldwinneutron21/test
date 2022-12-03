@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    padding: 200px 0 150px 0;
+}
+
+.bottom{
+    margin: 50px 0 50px 0;
+}
+
+.left_side{
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.right_side{
+    display: flex;
+    column-gap: 60px;
+}
+
+.right_side ul{
+    display: flex;
+    column-gap: 20px;
+}
+
+.right_side ul li{
+    box-shadow: 0 0 25px;
+    width: 100px;
+    text-align: center;
+    height: 20px;
+}
+
+.background{
+    height: 40%;
+    width: 100%;
+    background: cyan;
+    margin-bottom: 30px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin: 100px
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.block{
+    height: 270px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    text-align: right;
+    box-shadow: 0 0 25px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.tabs__content {
+  display: none; /* по умолчанию прячем все блоки */
+}
+.tabs__content.active {
+  display: block; /* по умолчанию показываем нужный блок */
+}
+
